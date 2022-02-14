@@ -44,13 +44,13 @@ public class CreditCardDAOImpl implements CreditCardDAO
 		creditCardRepository.deleteById(id);
 	}
 	
-	/*
+	
 	@Autowired
 	public CreditCardDAOImpl(CreditCardRepository creditCardRepository)
 	{
-		super(creditCardRepository);
+		super();
 	}
-	*/
+	
 	
 	@Override
 	@Transactional(readOnly = true)
